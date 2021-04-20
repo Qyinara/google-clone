@@ -1,0 +1,131 @@
+ header {
+     overflow: auto;
+     width: 100%;
+     display: block;
+     top: 0;
+ }
+ 
+ header a {
+     float: right;
+     text-align: center;
+     padding: 11px;
+     color: #000000DE;
+     text-decoration: none;
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ li {
+     list-style-type: none;
+ }
+ 
+ header a:hover {
+     background-color: #f2f2f2;
+     border-radius: 30px;
+ }
+ 
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     max-height: 100%;
+     max-width: 100%;
+     object-fit: contain;
+     object-position: center bottom;
+     width: auto;
+ }
+ 
+ .search {
+     display: block;
+     object-position: center bottom;
+     object-fit: contain;
+     margin-left: auto;
+     margin-right: auto;
+     border: none;
+     padding: 10px;
+     height: 20px;
+     width: 500px;
+     border: 1px solid #cacaca;
+     outline: none;
+     border-radius: 30px;
+ }
+ 
+ .search:hover {
+     border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+ }
+ 
+ .search:focus {
+     border-color: #4d90fe;
+ }
+ 
+ .gonder1:hover {
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     background: #f8f8f8;
+     border: 1px solid #c6c6c6;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     color: #222;
+ }
+ 
+ .gonder2:hover {
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     background: #f8f8f8;
+     border: 1px solid #c6c6c6;
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+     color: #222;
+ }
+ 
+ input[type=submit] {
+     appearance: auto;
+     white-space: pre;
+     align-items: flex-start;
+     box-sizing: border-box;
+     padding: 4px 10px;
+     border-radius: 2px;
+     background: #f8f9fa;
+     border: 1px solid #f2f2f2;
+     font-size: 13px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #3c4043;
+     width: 190px;
+     height: 40px;
+     text-align: center;
+ }
+ 
+ .article p {
+     font-family: arial, sans-serif;
+     color: #222;
+     font-size: smaller;
+ }
+ 
+ .article1 a {
+     text-decoration: none;
+     font-family: arial, sans-serif;
+     font-size: smaller;
+     color: #1a0dab;
+ }
+ 
+ footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: #f2f2f2;
+     color: #3d3c3cfb;
+     text-align: center;
+     text-decoration: none;
+ }
+ 
+ .carbon a {
+     text-decoration: none;
+     color: gray;
+ }
+ 
+ .carbon img {
+     width: 13px;
+ }
+ /*@media screen and (max-width: 500px) {
+    header a {
+      float: none;
+      display: block;
+    }
+  }gerekirse kullanırım kalsın.*/
